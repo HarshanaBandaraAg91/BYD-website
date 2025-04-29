@@ -7,14 +7,14 @@
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: hsl(43, 90%, 50%);
-  --first-color-alt: hsl(43, 88%, 48%);
+  --first-color: hsl(114, 90%, 50%);
+  --first-color-alt: hsl(109, 92%, 41%);
   --text-color: hsl(0, 0%, 42%);
   --text-color-lighten: hsl(0, 0%, 92%);
   --black-color: hsl(0, 0%, 8%);
   --white-color: hsl(0, 0%, 100%);
   --body-color: hsl(0, 0%, 98%);
-  --body-second-color: hsl(25, 70%, 55%);
+  --body-second-color: hsl(114, 91%, 31%);
   --shadow-img: -8px 8px 16px hsla(0, 0%, 0%, .2);
 
   /*========== Font and typography ==========*/
@@ -145,8 +145,36 @@ video {
 }
 
 /*=============== HEADER & NAV ===============*/
+.header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  z-index: var(--z-fixed);
+  transition: background-color .4s, box-shadow .4s;
+}
+
+.nav{
+  position: relative;
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__logo{
+  color: var(--black-color);
+  font-weight: var(--font-bold);
+}
 
 
+.nav__toggle,
+.nav__close{
+  display: inline-flex;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
 /* Navigation for mobile devices */
 
 
