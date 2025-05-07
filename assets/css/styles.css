@@ -640,7 +640,18 @@ video {
 }
 
 /*=============== SCROLL BAR ===============*/
+::-webkit-scrollbar{
+  width: .6rem;
+  background-color: hsl(0,0%,80%);
+}
 
+::-webkit-scrollbar-thumb{
+  background-color: hsl(0, 0%, 60%);
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background-color: hsl(0, 0%, 50%);
+}
 
 /*=============== SCROLL UP ===============*/
 
