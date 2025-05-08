@@ -7,14 +7,14 @@
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: hsl(114, 90%, 50%);
-  --first-color-alt: hsl(109, 92%, 41%);
+  --first-color: hsl(198, 74%, 55%);
+  --first-color-alt: hsl(198, 99%, 65%);
   --text-color: hsl(0, 0%, 42%);
   --text-color-lighten: hsl(0, 0%, 92%);
   --black-color: hsl(0, 0%, 8%);
   --white-color: hsl(0, 0%, 100%);
   --body-color: hsl(0, 0%, 98%);
-  --body-second-color: hsl(114, 91%, 31%);
+  --body-second-color: hsl(205, 91%, 50%);
   --shadow-img: -8px 8px 16px hsla(0, 0%, 0%, .2);
 
   /*========== Font and typography ==========*/
@@ -289,10 +289,10 @@ video {
   position: absolute;
   bottom: 5rem;
   justify-self: center;
-  color: var(--first-color);
+  color: red;
   width: 94px;
   height: 94px;
-  border: 2px solid var(--first-color);
+  border: 2px solid red;
   border-radius: 50%;
   display: grid;
   place-content: center;
