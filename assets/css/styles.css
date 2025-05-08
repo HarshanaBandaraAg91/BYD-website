@@ -723,7 +723,7 @@ video {
   }
 
   .footer__container{
-    grid-template-columns: repeat(3, max-width);
+    grid-template-columns: repeat(3, max-content);
     justify-content: space-between;
     align-items: flex-start;
   }
